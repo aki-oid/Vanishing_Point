@@ -2,6 +2,8 @@
 本ツールは、画像から**消失点（Vanishing Point）を自動検出**するC++アプリケーションです。  
 **OpenCVを用いてエッジ抽出および*ハフ変換**による直線検出を行い、それらの交点の重み付けにより最も確からしい消失点を推定します。
 
+<img width="1920" height="1177" alt="Image" src="https://github.com/user-attachments/assets/f2ff604b-3535-4d72-8f44-280467971197" />
+
 ## 1 機能概要
 ・OpenCVを用いた エッジ検出（Canny）
 ・ハフ変換による 直線検出
